@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { useSelector, useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import { Cat } from './model/interface'
 import { getCatsFetch } from './store/slices/catSlice'
 
