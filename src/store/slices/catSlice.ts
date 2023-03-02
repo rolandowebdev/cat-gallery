@@ -1,9 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit'
-
-interface Cat {
-  cats: []
-  isLoading: boolean
-}
+import { Cat } from '@/model/interface'
 
 const initialValue: Cat = {
   cats: [],
